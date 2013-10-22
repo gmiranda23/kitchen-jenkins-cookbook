@@ -28,6 +28,7 @@ jenkins_vagrant = ::File.join(jenkins_data[:home], ".vagrant.d")
 [ "build-essential",
   "libxml2-dev",
   "libxslt-dev",
+  "zlib1g-dev",
   "ruby1.9.1-full",
   "git-core" ].each do |pkg|
   package pkg
